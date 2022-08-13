@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    scroll-behavior: smooth;
+    background-color: #241963;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.list-decorate li::before {
+    content: "▹";
+    color: #d4ae50;
+}
